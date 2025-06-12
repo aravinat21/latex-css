@@ -1,0 +1,6 @@
+:lang(de) .theorem::before { content: 'ප්‍රමේය​යය ' counter(theorem) '. ' !important; }
+:lang(de) .lemma::before { content: 'උපසාධ්‍ය​ය ' counter(theorem) '. ' !important; }
+:lang(de) .proof::before { content: 'සාධන​ය ' attr(title) !important; }
+:lang(de) .definition::before { content: 'නිර්වචන​ය ' counter(definition) '. ' !important; }
+:lang(de) caption::before { content: 'වගු​ව ' counter(caption) '. ' !important; }
+:lang(de) figcaption::before { content: 'රූපසටහන ' counter(figcaption) '. ' !important; }
